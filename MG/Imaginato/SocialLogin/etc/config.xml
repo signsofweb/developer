@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Imaginato_SocialLogin>
+            <version>0.1.0</version>
+        </Imaginato_SocialLogin>
+    </modules>
+    <global>
+        <helpers>
+            <oneall_sociallogin>
+                <rewrite>
+                    <data>Imaginato_SocialLogin_Helper_Data</data>
+                </rewrite>
+            </oneall_sociallogin>
+        </helpers>
+        <resources>
+            <imaginato_sociallogin_setup>
+                <setup>
+                    <module>Imaginato_SocialLogin</module>
+                    <class>Imaginato_SocialLogin_Model_Resource_Setup</class>
+                </setup>
+            </imaginato_sociallogin_setup>
+        </resources>
+    </global>
+</config>

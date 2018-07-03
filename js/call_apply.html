@@ -1,0 +1,14 @@
+<script>
+
+    var Person = {
+        Full: function (a,b) {
+            return this.fist + ' ' + this.last +' '+ a +' '+ b;
+        }
+    }
+    tao = new Object();
+    tao.fist = 'C';
+    tao.last = 'P';
+    console.log(Person.Full.call(tao,'call ne','b ne'));
+    console.log('=================####====================');
+    console.log(Person.Full.apply(tao,['apply ne','b ne']));
+</script>

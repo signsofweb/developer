@@ -1,0 +1,26 @@
+<config>
+    <modules>
+        <Imaginato_ImgLoading>
+            <version>0.0.1</version>
+        </Imaginato_ImgLoading>
+    </modules> 
+    <global>
+        <models>
+            <imaginato_imgloading>
+                <class>Imaginato_ImgLoading_Model</class> 
+            </imaginato_imgloading>
+        </models>
+    </global>
+     <frontend>
+        <events>
+            <controller_action_postdispatch>
+                <observers>
+                   <imaginato_imgloading>
+                        <class>imaginato_imgloading/observer</class>
+                        <method>renderImgcontainer</method>
+                    </imaginato_imgloading>
+                </observers>   
+            </controller_action_postdispatch>
+        </events>
+    </frontend>
+</config>

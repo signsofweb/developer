@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Imaginato_Criteo>
+            <version>0.0.1</version>
+        </Imaginato_Criteo>
+    </modules>
+    <global>
+        <models>
+            <criteo>
+                <class>Imaginato_Criteo_Model</class>
+            </criteo>
+        </models>
+        <helpers>
+            <criteo>
+                <class>Imaginato_Criteo_Helper</class>
+            </criteo>
+        </helpers>
+        <blocks>
+            <criteo>
+                <class>Imaginato_Criteo_Block</class>
+            </criteo>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <criteo>
+                    <file>criteo.xml</file>
+                </criteo>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <criteo>
+            <setting>
+                <enabled>1</enabled>
+                <account>42436</account>
+            </setting>
+        </criteo>
+    </default>
+</config>

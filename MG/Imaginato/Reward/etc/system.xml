@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <enterprise_reward>
+            <groups>
+                <points>
+                    <fields>
+                        <confirm_days translate="label">
+                            <label>Order Point Validation Days</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-digits</validate>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <if_module_enabled>Imaginato_Reward</if_module_enabled>
+                        </confirm_days>
+                    </fields>
+                </points>
+            </groups>
+        </enterprise_reward>
+    </sections>
+</config>

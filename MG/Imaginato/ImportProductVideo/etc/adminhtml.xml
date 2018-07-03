@@ -1,0 +1,37 @@
+<config>
+    <menu>
+        <system>
+            <children>
+                <convert>
+                    <children>
+                        <improvd translate="title" module="imaginato_importproductvideo">
+                            <title>Import Product Videos</title>
+                            <action>adminhtml/improvd</action>
+                            <sort_order>100</sort_order>
+                        </improvd>
+                    </children>
+                </convert>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <convert>
+                                <children>
+                                    <improvd translate="title" module="imaginato_importproductvideo">
+                                        <title>Import Product Videos</title>
+                                        <sort_order>100</sort_order>
+                                    </improvd>
+                                </children>
+                            </convert>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

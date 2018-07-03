@@ -1,0 +1,35 @@
+<config>
+    <modules>
+        <Imaginato_Customer>
+            <version>0.0.1</version>
+        </Imaginato_Customer>
+    </modules>
+    <frontend>
+        <routers>
+            <customer>
+                <args>
+                    <modules>
+                        <imaginato_customer before="Mage_Customer">Imaginato_Customer</imaginato_customer>
+                    </modules>
+                </args>
+            </customer>
+        </routers>
+    </frontend>
+    <global>
+        <blocks>
+            <customer>
+                <rewrite>
+                    <widget_birth>Imaginato_Customer_Block_Widget_Birth</widget_birth>
+                </rewrite>
+            </customer>
+        </blocks>
+        <resources>
+            <imaginato_customer_setup>
+                <setup>
+                    <module>Imaginato_Customer</module>
+                    <class>Imaginato_Customer_Model_Resource_Setup</class>
+                </setup>
+            </imaginato_customer_setup>
+        </resources>
+    </global>
+</config>

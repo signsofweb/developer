@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+    RONIS BT
+-->
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <url_key translate="title">
+                    <title>Url Key Deal</title>
+                    <action>adminhtml/product_urlkey</action>
+                    <sort_order>80</sort_order>
+                </url_key>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <url_key translate="title">
+                                <title>Url Key Deal</title>
+                                <sort_order>80</sort_order>
+                            </url_key>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

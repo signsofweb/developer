@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: no XML declaration present -->
+<field_static_blocks>
+<!-- static block configuration -->
+    <block>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <identify>info</identify>
+        <hook_position>blockPosition1</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <identify>banner-2</identify>
+        <hook_position>blockPosition2</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <identify>banner-3</identify>
+        <hook_position>blockPosition3</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <identify>map-for-contact</identify>
+        <hook_position>bannerSequence</hook_position>
+        <name_module>Chose Module</name_module>
+        <hook_module>displayNav</hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <identify>info</identify>
+        <hook_position>displayNav2</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <identify>banner-4</identify>
+        <hook_position>blockPosition4</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <identify>Banner-5</identify>
+        <hook_position>blockPosition5</hook_position>
+        <name_module>Chose Module</name_module>
+        <hook_module>displayNav</hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <identify>banner-leftcolumn</identify>
+        <hook_position>leftColumn</hook_position>
+        <name_module>Chose Module</name_module>
+        <hook_module>displayNav</hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+<!-- block lang configuration -->
+    <block_lang>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Stt block home top</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-truck"></div>
+<div class="st_text"><a href="#">FREE SHIPPING & REFUND</a>
+<p>Free shipping and discount coupons</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-gift"></div>
+<div class="st_text"><a href="#">GIFT VOURCHER OFFER</a>
+<p>Buy gift vouchers in US for corporate</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-trophy"></div>
+<div class="st_text"><a href="#">MULTI FAMOUS BRANDS</a>
+<p>Many famous brands of clothes</p>
+</div>
+</div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Banner-2</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn11.jpg" alt="" /> </a></div>
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn12.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Banner-3</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn3.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Maps for Contact</title>
+        <description>
+<![CDATA[
+
+
+<p style="margin: 60px 0;"><iframe width="100%" height="390" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2775167739280247!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sfr!2s!4v1488943722527" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+    
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Info</title>
+        <description>
+<![CDATA[
+<div id="info-nav" class="header_links">
+<ul>
+<li>Call support free: <span>(800) 123 456 789</span></li>
+</ul>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Banner-4</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn51.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn52.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Banner-5</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn81.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn82.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn83.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Banner Leftcolumn</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner bn_lefft">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/left.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Stt block home top</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-truck"></div>
+<div class="st_text"><a href="#">FREE SHIPPING & REFUND</a>
+<p>Free shipping and discount coupons</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-gift"></div>
+<div class="st_text"><a href="#">GIFT VOURCHER OFFER</a>
+<p>Buy gift vouchers in US for corporate</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-trophy"></div>
+<div class="st_text"><a href="#">MULTI FAMOUS BRANDS</a>
+<p>Many famous brands of clothes</p>
+</div>
+</div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Banner-2</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn11.jpg" alt="" /> </a></div>
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn12.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Home banner 1</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn3.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Maps for Contact</title>
+        <description>
+<![CDATA[
+
+
+<p style="margin: 60px 0;"><iframe width="100%" height="390" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2775167739280247!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sfr!2s!4v1488943722527" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+    
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Info</title>
+        <description>
+<![CDATA[
+<div id="info-nav" class="header_links">
+<ul>
+<li>Call support free: <span>(800) 123 456 789</span></li>
+</ul>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Banner-4</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn51.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn52.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Banner-5</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn81.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn82.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn83.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Banner Leftcolumn</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner bn_lefft">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/left.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Stt block home top</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-truck"></div>
+<div class="st_text"><a href="#">FREE SHIPPING & REFUND</a>
+<p>Free shipping and discount coupons</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-gift"></div>
+<div class="st_text"><a href="#">GIFT VOURCHER OFFER</a>
+<p>Buy gift vouchers in US for corporate</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-trophy"></div>
+<div class="st_text"><a href="#">MULTI FAMOUS BRANDS</a>
+<p>Many famous brands of clothes</p>
+</div>
+</div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Banner-2</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn11.jpg" alt="" /> </a></div>
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn12.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Home banner 1</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn3.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Maps for Contact</title>
+        <description>
+<![CDATA[
+
+
+<p style="margin: 60px 0;"><iframe width="100%" height="390" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2775167739280247!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sfr!2s!4v1488943722527" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+    
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Info</title>
+        <description>
+<![CDATA[
+<div id="info-nav" class="header_links">
+<ul>
+<li>Call support free: <span>(800) 123 456 789</span></li>
+</ul>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Banner-4</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn51.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn52.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Banner-5</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn81.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn82.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn83.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Banner Leftcolumn</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner bn_lefft">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/left.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Stt block home top</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-truck"></div>
+<div class="st_text"><a href="#">FREE SHIPPING & REFUND</a>
+<p>Free shipping and discount coupons</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-gift"></div>
+<div class="st_text"><a href="#">GIFT VOURCHER OFFER</a>
+<p>Buy gift vouchers in US for corporate</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="st_info">
+<div class="bd_inline">
+<div class="fa fa-trophy"></div>
+<div class="st_text"><a href="#">MULTI FAMOUS BRANDS</a>
+<p>Many famous brands of clothes</p>
+</div>
+</div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Banner-2</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn11.jpg" alt="" /> </a></div>
+<div class="col-xs-12 col-sm-6"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn12.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Banner-3</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn3.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Maps for Contact</title>
+        <description>
+<![CDATA[
+
+
+<p style="margin: 60px 0;"><iframe width="100%" height="390" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2775167739280247!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sfr!2s!4v1488943722527" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+    
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Info</title>
+        <description>
+<![CDATA[
+<div id="info-nav" class="header_links">
+<ul>
+<li>Call support free: <span>(800) 123 456 789</span></li>
+</ul>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Banner-4</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn51.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn52.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Banner-5</title>
+        <description>
+<![CDATA[
+<div class="aaa text-center hover-banner">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn81.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn82.jpg" alt="" /> </a><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/bn83.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+    <block_lang>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Banner Leftcolumn</title>
+        <description>
+<![CDATA[
+<div class="text-center hover-banner bn_lefft">
+<div class="row">
+<div class="col-xs-12"><a href="#"> <img class="img-responsive" src="/eshop/home1/modules/fieldstaticblocks/images/left.jpg" alt="" /> </a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_lang>
+<!-- block shop configuration -->
+    <block_shop>
+        <id_fieldstaticblock>1</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>2</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>6</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>8</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>9</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+    <block_shop>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+     </block_shop>
+
+
+</field_static_blocks>

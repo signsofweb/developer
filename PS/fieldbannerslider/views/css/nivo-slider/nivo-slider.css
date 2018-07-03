@@ -1,0 +1,261 @@
+
+
+ 
+/* Browser Resets */
+.field-slideshow-container{
+float:left;
+width:100%;
+}
+.field-slideshow-container .flex-container a:active,
+.field-slideshow-container .flexslider a:active,
+.field-slideshow-container .flex-container a:focus,
+.field-slideshow-container .flexslider a:focus  {outline: none;}
+.field-slideshow-container .slides,
+.field-slideshow-container .flex-control-nav,
+.field-slideshow-container .flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.field-slideshow-container .flexslider {margin: 0; padding: 0;}
+.field-slideshow-container .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position: relative; } /* Hide the slides before the JS is loaded. Avoids image jumping */
+.field-slideshow-container .flexslider .slides img {width: 100%; display: block;}
+.field-slideshow-container .flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.field-slideshow-container .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .field-slideshow-container .slides {display: block;} 
+* html .field-slideshow-container .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .field-slideshow-container .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.field-slideshow-container .flexslider {margin: 30px 0; position: relative; zoom: 1; min-height: 50px; }
+.field-slideshow-container .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.field-slideshow-container .loading .flex-viewport {max-height: 300px;}
+.field-slideshow-container .flexslider .slides {zoom: 1;}
+
+.field-slideshow-container .carousel li {margin-right: 5px}
+
+
+/* Direction Nav */
+.field-slideshow-container .flex-direction-nav {*height: 0;}
+.field-slideshow-container .flex-direction-nav a,
+.nivo-directionNav a { width: 30px; height: 30px; margin: -15px 0 0; display: block; background: url(themes/default/arrows.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; z-index: 9; }
+.field-slideshow-container .flex-direction-nav .flex-next,
+.nivo-directionNav a.nivo-nextNav { background-position: 100% 0; right: 10px; }
+.field-slideshow-container .flex-direction-nav .flex-prev,
+.nivo-directionNav a.nivo-prevNav { left: 10px;}
+.field-slideshow-container .flexslider:hover .flex-next { }
+.field-slideshow-container .flexslider:hover .flex-prev { }
+.field-slideshow-container .flexslider:hover .flex-next:hover, .field-slideshow-container .flexslider:hover .flex-prev:hover {opacity: 1;}
+.field-slideshow-container .flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.field-slideshow-container .flex-control-nav,
+.nivo-controlNav {width: 100%; position: absolute; bottom: 0px; text-align: center;}
+.field-slideshow-container .flex-control-nav li { margin: 0 6px; display: inline-block; zoom: 1; *display: inline; }
+.field-slideshow-container .flex-control-paging li a,
+.nivo-controlNav a {border-radius: 20px;
+    box-shadow: none;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+border-radius: 20px;
+box-shadow: none; z-index: 9;
+}
+.field-slideshow-container .flex-control-paging li a:hover,
+.field-slideshow-container .flex-control-paging li a.flex-active,
+.nivo-controlNav a:hover,
+.nivo-controlNav a.active { background: #f2532f; box-shadow: none !important; cursor: pointer; }
+
+
+.field-slideshow-container .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.field-slideshow-container .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.field-slideshow-container .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.field-slideshow-container .flex-control-thumbs img:hover {opacity: 1;}
+.field-slideshow-container .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+
+.field-nivoslider {
+	overflow: hidden;
+}
+.nivoslider {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	width: 100%; 
+}
+.nivoslider img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.nivo-controlNav {
+    padding: 10px 0;
+    text-align: center;
+}
+.nivo-controlNav a {
+    background: none repeat scroll 0 0 #f9f9f9;
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    margin: 0 2px;
+    position: relative;
+    text-indent: -9999px;
+    width: 13px;
+    z-index: 9;
+}
+
+
+.field-slideshow-caption {
+	position: absolute;
+ 	left:0; 
+ 	top:0;	
+	width: 100%;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	z-index: 999;
+}
+.field-slideshow-title {
+	position: absolute;
+ 	left:0; 
+ 	top:0;
+	width: 100%;
+        text-align: center;
+	-webkit-transition:all 0.5s ease; 
+  	   -moz-transition:all 0.5s ease;
+     	-ms-transition:all 0.5s ease;
+     	 -o-transition:all 0.5s ease;
+        	transition:all 0.5s ease;   
+}
+.field-slideshow-title h3 {
+	color: #f2532f;
+	font-size: 50px;
+	font-family: "pathway";
+        text-transform: uppercase;
+}
+.field-slideshow-des {
+	color: #ffffff;
+        font-family: "helveticaneue";
+        font-size: 18px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 80px;
+        width: 100%;
+	-webkit-transition:all 1.3s ease; 
+  	   -moz-transition:all 1.3s ease;
+     	-ms-transition:all 1.3s ease;
+     	 -o-transition:all 1.3s ease;
+        	transition:all 1.3s ease;  
+}
+.field-slideshow-readmore {
+	background: none repeat scroll 0 0 transparent;
+        border: 1px solid #fff;
+        bottom: -130px;
+        height: 363px;
+        left: 10px;
+        position: absolute;
+        width: 250px;
+        display: none;
+	-webkit-transition:all 1.5s ease; 
+  	   -moz-transition:all 1.5s ease;
+     	-ms-transition:all 1.5s ease;
+     	 -o-transition:all 1.5s ease;
+        	transition:all 1.5s ease;  
+}
+.field-slideshow-readmore a {
+	color: transparent;
+	font-size: 20px;
+        text-align: center;
+}
+.field-slideshow-container .field-loading {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	z-index: 99;
+	/*background: url(img/bx_loader.gif) no-repeat ;*/
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -8px;
+}
+
+
+
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+.nivo-caption {
+        position:absolute;
+ 	left:0; 
+ 	bottom: 140px;	
+	color:#fff;
+	width:100%;
+	z-index:8;
+}
+.nivo-html-caption {
+    display: none;
+}
+@media (max-width: 1080px) {
+    .field-slideshow-title h3 { font-size: 31px;}
+    .field-slideshow-title{top:23px;}
+/*    .field-slideshow-des { top: 135px;}
+    .field-slideshow-readmore { top: 215px;}
+    .field-slideshow-container .flex-control-nav, .nivo-controlNav { bottom: -2px;}*/
+}

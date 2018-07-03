@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Imaginato_DataCash>
+            <version>0.0.1</version>
+        </Imaginato_DataCash>
+    </modules>
+    <adminhtml>
+        <events>
+            <sales_quote_payment_import_data_before>
+                <observers>
+                    <imaginato_datacash>
+                        <class>Imaginato_DataCash_Model_Observer</class>
+                        <method>paymentDataImport</method>
+                    </imaginato_datacash>
+                </observers>
+            </sales_quote_payment_import_data_before>
+        </events>
+    </adminhtml>
+</config>

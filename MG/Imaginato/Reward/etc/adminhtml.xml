@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <customer>
+                        <children>
+                            <reward_history translate="title">
+                                <title>Customer Reward History</title>
+                                <sort_order>110</sort_order>
+                            </reward_history>
+                        </children>
+                    </customer>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <customer>
+            <children>
+                <reward_history translate="title" module="enterprise_customer">
+                    <title>Customer Reward History</title>
+                    <action>adminhtml/reward_history</action>
+                    <sort_order>110</sort_order>
+                    <depends>
+                        <module>Enterprise_Reward</module>
+                        <config>enterprise_reward/general/is_enabled</config>
+                    </depends>
+                </reward_history>
+            </children>
+        </customer>
+    </menu>
+</config>

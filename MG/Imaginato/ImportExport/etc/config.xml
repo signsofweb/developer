@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Imaginato_ImportExport>
+            <version>0.0.1</version>
+        </Imaginato_ImportExport>
+    </modules>
+    <global>
+        <models>
+            <imaginato_importexport>
+                <class>Imaginato_ImportExport_Model</class>
+            </imaginato_importexport>
+            <importexport>
+                <rewrite>
+                    <import_entity_product_type_configurable>Imaginato_ImportExport_Model_Import_Entity_Product_Type_Configurable</import_entity_product_type_configurable>
+                </rewrite>
+            </importexport>
+            <eems_affiliate>
+                <rewrite>
+                    <product_attribute_source_commissioningCategory>Imaginato_ImportExport_Model_Product_Attribute_Source_CommissioningCategory</product_attribute_source_commissioningCategory>
+                </rewrite>
+            </eems_affiliate>
+        </models>
+        <importexport module="importexport">
+            <import_entities>
+                <catalog_product translate="label">
+                    <model_token>imaginato_importexport/import_entity_product</model_token>
+                    <label>Products</label>
+                </catalog_product>
+            </import_entities>
+            <export_entities>
+                <catalog_product translate="label">
+                    <model_token>imaginato_importexport/export_entity_product</model_token>
+                    <label>Products</label>
+                </catalog_product>
+            </export_entities>
+        </importexport>
+    </global>
+</config>

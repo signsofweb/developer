@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Imaginato_ImportProductCategory>
+            <version>0.0.1</version>
+        </Imaginato_ImportProductCategory>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <imaginato_importproductcategory before="Mage_Adminhtml">Imaginato_ImportProductCategory_Adminhtml</imaginato_importproductcategory>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <system>
+                <children>
+                    <convert>
+                        <children>
+                            <importproductcategory translate="title" module="imaginato_importproductcategory">
+                                <title>Import Product Category</title>
+                                <action>adminhtml/ipc</action>
+                                <sort_order>130</sort_order>
+                            </importproductcategory>
+                        </children>
+                    </convert>
+                </children>
+            </system>
+        </menu>
+        <layout>
+            <updates>
+                <imaginato_importproductcategory>
+                    <file>imaginato/importproductcategory.xml</file>
+                </imaginato_importproductcategory>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <helpers>
+          <imaginato_importproductcategory>
+            <class>Imaginato_ImportProductCategory_Helper</class>
+          </imaginato_importproductcategory>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,27 @@
+<config>
+    <modules>
+        <Imaginato_Newsletter>
+            <version>0.0.1</version>
+        </Imaginato_Newsletter>
+    </modules>
+    <frontend>
+        <routers>
+            <newsletter>
+                <args>
+                    <modules>
+                        <imaginato_newsletter before="Mage_Newsletter">Imaginato_Newsletter</imaginato_newsletter>
+                    </modules>
+                </args>
+            </newsletter>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <monkey>
+                <rewrite>
+                    <observer>Imaginato_Newsletter_Model_Monkey_Observer</observer>
+                </rewrite>
+            </monkey>
+        </models>
+    </global>
+</config>

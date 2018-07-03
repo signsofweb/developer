@@ -1,0 +1,64 @@
+<!--BUTTON OPEN POPUP-->
+<!-- <a class="btn-slimright" data-popup="dl-01">
+    <span>Join Program</span>
+</a> -->
+
+<!-- DATA POPUP -->
+<div class="content-popup program-page" id="dl-01" style="display: none">
+    <?php 
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        $storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+    ?>
+    <p><link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"></p>
+    <div id="mc_embed_signup">
+        <form id="mc-embedded-subscribe-form" class="validate" action="<?php echo $storeManager->getStore()->getBaseUrl();  ?>programaction/programaction/" method="post" name="mc-embedded-subscribe-form">
+            <div id="mc_embed_signup_scroll">
+                <h2><?php echo __('Join the program') ?></h2>
+                <p><?php echo __('Enter your name and email to get started on the SlimRight ') ?><span class="program_title"></span></p>
+                <div class="mc-field-group">
+                    <input id="mce-LNAME" name="name" type="text" value="" placeholder="Name" class="required" data-validate="{'required':true}" />
+                </div>
+                <div class="mc-field-group">
+                    <input id="mce-EMAIL" class="required email" name="email" type="email" value="" placeholder="Email address" data-validate="{'required':true}" />
+                </div>
+                <div class="mc-field-group input-group" style="display: none;">
+                    <ul>
+                        <li><input id="intensive" name="intensive" type="checkbox"/></li>
+                        <li><input id="steady" name="steady" type="checkbox"/></li>
+                        <li><input id="maintennace" name="maintennace" type="checkbox"/></li>
+                    </ul>
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div id="mce-error-response" class="response" style="display: none;"></div>
+                    <div id="mce-success-response" class="response" style="display: none;"></div>
+                </div>
+                <input type="hidden" name="program_form" value="1"/>
+                <div class="clear">
+                    <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Sign me up!" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <?php echo  $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('pb')->toHtml(); ?>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "openModalSlimright": {
+
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+require([
+    'jquery',
+    'mage/mage'
+], function($){
+ 
+   var dataForm = $('#mc-embedded-subscribe-form');
+   dataForm.mage('validation', {});
+ 
+});
+</script>

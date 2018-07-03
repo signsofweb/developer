@@ -1,0 +1,61 @@
+.productlist-widget{
+	float: left;
+	width: 100%
+}
+.productlist-widget .etabs {
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+.productlist-widget .tab {
+	display: inline-block;
+	zoom: 1;
+	background: #fff;
+	border: 0;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	margin-right: 5px;
+}
+.productlist-widget .tab-container .panel-container {
+	background: #fff;
+	border: solid #666 1px;
+	padding: 10px;
+	-moz-border-radius: 0 4px 4px 4px;
+	-webkit-border-radius: 0 4px 4px 4px;
+}
+.panel-container {
+	margin-bottom: 10px;
+	float:left; width: 100%
+}
+.productlist-widget{
+	width: 100%;
+	float: left;
+}
+.productlist-widget .tab a { 
+	font-size: 18px;
+	line-height: 2em; 
+	display: block; 
+	padding: 0 10px; 
+	color: #333333;
+}
+.productlist-widget .paneltab{
+	min-height: 300px;
+}
+.productlist-widget .tab a:hover{
+	text-decoration: none
+}
+.productlist-widget .productlist-wait{
+	height: 300px;
+	background: url('../images/loading.gif') center no-repeat;
+}
+.field-products-grid .product-item-info:hover,
+.field-products-grid .product-item-info.active {
+	margin: -10px;
+	padding: 9px;
+	border: 1px solid #bbb;
+	box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 2;
+	background: #fff
+}

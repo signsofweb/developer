@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="adminhtml.newslettrer.subscriber.grid.columnSet">
+            <block class="Magento\Backend\Block\Widget\Grid\Column" as="name">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">Guest Name</argument>
+                    <argument name="index" xsi:type="string">name</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Backend\Block\Widget\Grid\Column" as="gender">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">Gender</argument>
+                    <argument name="index" xsi:type="string">gender</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+			 <block class="Magento\Backend\Block\Widget\Grid\Column" as="post_code">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">Postcode</argument>
+                    <argument name="index" xsi:type="string">post_code</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Backend\Block\Widget\Grid\Column" as="dob">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">DOB</argument>
+                    <argument name="index" xsi:type="string">dob</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Backend\Block\Widget\Grid\Column" as="interests">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">Interests</argument>
+                    <argument name="index" xsi:type="string">interests</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+			<block class="Magento\Backend\Block\Widget\Grid\Column" as="program">
+                <arguments>
+                    <argument name="header" xsi:type="string" translate="true">Program</argument>
+                    <argument name="index" xsi:type="string">program</argument>
+                    <argument name="default" xsi:type="string">----</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

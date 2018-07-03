@@ -1,0 +1,165 @@
+<?php /** * Copyright © 2013-2017 Magento, Inc. All rights reserved. * See COPYING.txt for license details. */ // @codingStandardsIgnoreFile ?>
+<?php echo $block->getChildHtml('form_before')?>
+<form class="form form-newsletter-manage inter" action="<?php echo $block->escapeUrl($block->getAction()) ?>" method="post" id="form-validate">
+    <fieldset class="fieldset">
+        <?php echo $block->getBlockHtml('formkey')?>
+        <?php
+            $interest_items = explode(",",str_replace(' ','',$block->getInterestsItem()));
+            foreach ($interest_items as $key => $value) {
+                if($value == '')
+                    unset($interest_items[$key]);
+            }
+            $program_item = $block->getProgramItem();
+        ?>
+        <legend class="legend"><span><?php echo $block->escapeHtml(__('Subscriptions')) ?></span>
+        </legend>
+       
+        <div class="on-off-action">
+            <input type="checkbox" name="is_subscribed_1" id="subscription_2" value="1" title="<?php echo $this->helper(\Magento\Framework\EscapeHelper::class)->escapeHtmlAttr(__('General Subscription')) ?>"<?php if (count($interest_items) != '0'): ?> checked="checked"<?php endif; ?> class="checkbox">
+            <label>
+                <span class="big-label"><?php echo __('Nature\'s Way Newsletter'); ?></span>
+                <span class="small-label"><?php echo __('This includes new products, sales, trends and special offers.') ?></span>
+            </label>
+        </div>
+        <div class="interests">
+            <div class="field general_health">
+                <input type="checkbox" id="general_health1" name="general_health" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('GeneralHealth',$interest_items)): ?> checked<?php endif;?>
+                >
+                <label class="label" for="general_health1"><span><?php echo __('General Health') ?></span>
+                </label>
+            </div>
+
+            <div class="field weight_management">
+                <input type="checkbox" id="weight_management1" name="weight_management" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('WeightManagement',$interest_items)): ?> checked<?php endif;?>
+                >
+                <label class="label" for="weight_management1"><span><?php echo __('Weight Management') ?></span>
+                </label>
+            </div>
+
+            <div class="field superfoods">
+                <input type="checkbox" id="superfoods1" name="superfoods" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('SuperFoods',$interest_items)): ?> checked<?php endif;?>
+                >
+                <label class="label" for="superfoods1"><span><?php echo __('SuperFoods'); ?></span>
+                </label>
+            </div>
+            <div class="field kids_health">
+                <input type="checkbox" id="kids_health1" name="kids_health" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('KidsHealth',$interest_items)): ?> checked<?php endif;?>
+                >
+                <label class="label" for="kids_health1"><span><?php echo __('Kids Health') ?></span>
+                </label>
+            </div>
+            <div class="field e50_health">
+                <input type="checkbox" id="e50_health1" name="e50_health" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('50+Health',$interest_items)): ?> checked<?php endif;?>
+                >
+                <label class="label" for="e50_health1"><span><?php echo __('50+ Health'); ?></span>
+                </label>
+            </div>
+        </div>
+        
+        <input type="hidden" name="custom_name" value="<?php echo $block->getCustomer()->getEmail(); ?>"/>
+        <input type="hidden" name="upgrade_newletter" value="1" />
+        <?php /* Extensions placeholder */ ?>
+        <?php echo $block->getChildHtml('customer.form.newsletter.extra')?>
+    </fieldset>
+    <div class="actions-toolbar">
+        <div class="primary">
+            <button type="submit" title="<?php echo $this->helper(\Magento\Framework\EscapeHelper::class)->escapeHtmlAttr(__('Save')) ?>" class="action save primary"><span><?php echo $block->escapeHtml(__('Save')) ?></span>
+            </button>
+        </div>
+    </div>
+</form>
+
+<form action="<?php echo $block->escapeUrl($block->getAction()) ?>" method="post" class="form form-newsletter-manage prog">
+    
+    <?php $pro = explode(", ",$program_item)?>
+    <fieldset class="fieldset">
+        <div class="on-off-action">
+            <input type="checkbox" name="is_subscribed" id="subscription_1" value="1" title="General Subscription" <?php if ($pro[0] != ''): ?> checked<?php endif;?> c>
+            <label>
+                <span class="big-label"><?php echo __('SlimRight Lifestyle Program') ?></span>
+                <span class="small-label"><?php echo __('Meal and workout plans to assist you in achieving your weight loss goals.') ?></span>
+            </label>
+        </div>
+    <div class="fieldset program">
+        <div class="field">
+            <label>
+                    <span><?php echo __('2 Week Intensive - Fast, short term weight loss') ?></span>
+            </label>
+            <input type="checkbox" name="maintenance" id="maintenance" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('2 Week Intensive', explode(", ",$program_item))): ?> checked<?php endif;?>
+                >
+        </div>
+        <div class="field">
+            <label>
+                <span><?php echo __('4 Week Maintenance - Maintain weight long term') ?></span>
+            </label>
+            <input type="checkbox" name="intensive" id="intensive_1" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('4 Week Maintenance', explode(", ",$program_item))): ?> checked<?php endif;?>
+                >
+        </div>
+        <div class="field">
+            <label>
+                    <span><?php echo __('10+ Week Steady - Stable long term weight loss') ?></span>
+           
+            </label>
+            <input type="checkbox" name="ten-week" id="ten-week" 
+                    <?php if (!$block->getIsSubscribed()): ?> disabled<?php endif; ?>
+                    <?php if (in_array('10+ Week Steady', explode(", ",$program_item))): ?> checked<?php endif;?>
+                >
+        </div>
+    </div>
+    <input type="hidden" name="customer_program" value="1"/>
+    <input type="hidden" name="custom_name" value="<?php echo $block->getCustomer()->getEmail(); ?>"/>
+    <div class="actions-toolbar">
+        <div class="primary">
+            <button type="submit" title="<?php echo $this->helper(\Magento\Framework\EscapeHelper::class)->escapeHtmlAttr(__('Save')) ?>" class="action save primary"><span><?php echo $block->escapeHtml(__('Save')) ?></span>
+            </button>
+        </div>
+        <div class="secondary"><a class="action back" href="<?php echo $block->escapeUrl($block->getBackUrl()) ?>"><span><?php echo $block->escapeHtml(__('Back')) ?></span></a>
+        </div>
+    </div>
+    </fieldset>
+</form>
+    <script type="text/javascript">
+        require(['jquery', 'jquery/ui'], function($){ 
+            $(document).ready(function(){
+                $('.on-off-action input').change(function(){
+                    if($(this).attr('checked') == 'checked'){
+                        $(this).parent().next().each(function(){
+                            $(this).find('input').attr('disabled',false);
+                        })
+                    }else{
+                        $(this).parent().next().each(function(){
+                            $(this).find('input').attr('checked',false);
+                        })
+                    }
+                });
+
+                $('.interests input[type="checkbox"]').change(function() {
+                    console.log($(this).is(':checked'));
+                    if($(this).is(':checked'))
+                        $('.inter .on-off-action input').attr('checked','checked');
+                });
+
+                $('.program input').change(function() {
+                    if($(this).is(':checked'))
+                        $('.prog .on-off-action input').attr('checked','checked');
+                });
+            })
+            
+        });
+    </script>
+<?php /* Extensions placeholder */ ?>
+<?php echo $block->getChildHtml('customer.form.newsletter.extra2')?>

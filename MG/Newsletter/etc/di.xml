@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Newsletter\Controller\Subscriber\NewAction" type="Convert\Newsletter\Controller\Subscriber\NewAction"/>
+    <preference for="Ebizmarts\MageMonkey\Model\Plugin\Subscriber" type="Convert\Newsletter\Model\Plugin\Subscriber"/>
+    <preference for="Magento\Customer\Block\Newsletter" type="Convert\Newsletter\Block\Newsletter"/>
+	<preference for="Ebizmarts\MageMonkey\Model\MCAPI" type="Convert\Newsletter\Model\MCAPI"/>
+	<preference for="Magento\Newsletter\Controller\Manage\Save" type="Convert\Newsletter\Controller\EditSubcriber\Save"/>
+</config>

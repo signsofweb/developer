@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<config>
+    <sections>
+        <currency>
+            <groups>
+                <history translate="label">
+                    <label>Currency Rate History Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>60</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <gbp_to_usd translate="label comment">
+                            <label>GBP to USD</label>
+                            <comment><![CDATA[The default time is 00:00:00 ]]></comment>
+                            <frontend_model>imaginato_orderexport/system_config_form_field_ratefields</frontend_model>
+                            <backend_model>imaginato_orderexport/system_config_backend_ratefield</backend_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </gbp_to_usd>
+                    </fields>
+                </history>
+            </groups>
+        </currency>
+    </sections>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+         <promo>
+            <children>
+                <skusrule translate="title" module="skusrule">
+                    <title>Product Price Rules</title>
+                    <action>adminhtml/promo_product/</action>
+                </skusrule>
+            </children>
+         </promo>
+     </menu>
+     <acl>
+        <resources>
+            <admin>
+                <children>
+                    <promo>
+                        <children>
+                            <skusrule translate="title">
+                                <title>Product Price Rules</title>
+                            </skusrule>
+                        </children>
+                    </promo>
+                </children>
+            </admin>
+        </resources>
+     </acl>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>fieldfeaturedproductslider</name>
+    <displayName><![CDATA[Field featured products]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[Displays featured products in the your homepage.]]></description>
+    <author><![CDATA[Fieldthemes]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

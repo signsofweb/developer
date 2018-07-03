@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <blacklist translate="label" module="enterprise_targetrule">
+                    <label>Product Blacklist</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <sort_order>1000</sort_order>
+                    <fields>
+                        <productids translate="label">
+                            <label>Delete Product Blacklist</label>
+                            <comment><![CDATA[Multiple Product is separated by "," ]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </productids>
+                        <roundup translate="label">
+                            <label>Price Round Up Product Blacklist</label>
+                            <comment><![CDATA[Multiple Product is separated by "," ]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </roundup>
+                    </fields>
+                </blacklist>
+            </groups>
+        </catalog>
+    </sections>
+</config>

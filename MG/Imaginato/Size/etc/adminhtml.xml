@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <cms>
+            <children>
+                <size translate="title" module="size">
+                    <title>Size Chart</title>
+                    <action>adminhtml/size</action>
+                    <sort_order>100</sort_order>
+                </size>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <size translate="title" module="size">
+                                <title>Size Chart</title>
+                                <sort_order>100</sort_order>
+                            </size>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

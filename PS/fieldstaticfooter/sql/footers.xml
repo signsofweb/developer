@@ -1,0 +1,691 @@
+<field_static_blocks>
+<!-- static block configuration -->
+    <block>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <identify>my_account</identify>
+        <hook_position>blockFooter3</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>3</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <identify>information</identify>
+        <hook_position>blockFooter3</hook_position>
+        <name_module>ps_emailsubscription</name_module>
+        <hook_module>actionCustomerAccountAdd</hook_module>
+        <fieldorder>1</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <identify>customer-service</identify>
+        <hook_position>blockFooter3</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>2</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <identify>about_us</identify>
+        <hook_position>blockFooter2</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>2</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <identify>info</identify>
+        <hook_position>blockFooter2</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>1</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <identify>address</identify>
+        <hook_position>blockFooter4</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>0</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <identify>newletter</identify>
+        <hook_position>blockFooter1</hook_position>
+        <name_module>ps_emailsubscription</name_module>
+        <hook_module>actionCustomerAccountAdd</hook_module>
+        <fieldorder>3</fieldorder>
+        <insert_module>1</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <identify>payment</identify>
+        <hook_position>blockFooter4</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <fieldorder>2</fieldorder>
+        <insert_module>0</insert_module>
+        <active>1</active>
+        <showhook>1</showhook>
+    </block>
+    <!-- block language configuration -->
+    <block_language>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>My Account</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_my_account">
+<h3>My Account</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">My Account</a></li>
+<li><a href="#" title="">Order History</a></li>
+<li><a href="#" title="">Wish list</a></li>
+<li><a href="#" title="">Newsletter</a></li>
+<li><a href="#" title="">Shopping Cart</a></li>
+<li><a href="#" title="">Checkout</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Information</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_information">
+<h3>INFORMATION</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">About Us</a></li>
+<li><a href="#" title="">Delivery information</a></li>
+<li><a href="#" title="">Privacy Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+<li><a href="#" title="">My Credit Slips</a></li>
+<li><a href="#" title="">My Addresses</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Customer service</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_customer">
+<h3>SUPPORT</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">Contact us</a></li>
+<li><a href="#" title="">Returns</a></li>
+<li><a href="#" title="">Site map</a></li>
+<li><a href="#" title="">Our Story</a></li>
+<li><a href="#" title="">Privacy & Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>About us</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 about_social">
+<div class="bd_footer_block bd_about">
+<h3>About us</h3>
+<div class="bd_content">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit., cidunt auctor ...</div>
+</div>
+<div class="bd_footer_block bd_social">
+<h3>Follow us</h3>
+<div class="bd_content"><a href="#" class="fa  fa-facebook">.</a> <a href="#" class="fa  fa-twitter">.</a> <a href="#" class="fa  fa-rss">.</a> <a href="#" class="fa  fa-google-plus">.</a><a href="#" class="fa  fa-linkedin">.</a><a href="#" class="fa  fa-pinterest">.</a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Store Info</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 bd_footer_block bd_store">
+<h3><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/logo.png" alt="" /></h3>
+<div class="bd_content">
+<h3>main office</h3>
+<ul>
+<li>
+<div class="fa fa-map-marker"></div>
+<span>PO Box 16122 Collins Street West Victoria 8007 Australia</span></li>
+<li>
+<div class="fa fa-phone"></div>
+<span>+844 123 456 78 / +844 123 456 79</span></li>
+<li>
+<div class="fa fa-envelope"></div>
+<span>sale@yoursitecom</span></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Address</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_address">
+<div class="bd_content">
+<p>Copyright © 2018 <a href="#">E-Shop</a>. All Right Reserved.</p>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Newletter</title>
+        <description></description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <iso_lang>en</iso_lang>
+        <title>Payment</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_payment">
+<div class="bd_content"><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/payment_footer.png" alt="" /></div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>My Account</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_my_account">
+<h3>My Account</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">My Account</a></li>
+<li><a href="#" title="">Order History</a></li>
+<li><a href="#" title="">Wish list</a></li>
+<li><a href="#" title="">Newsletter</a></li>
+<li><a href="#" title="">Shopping Cart</a></li>
+<li><a href="#" title="">Checkout</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Information</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_information">
+<h3>INFORMATION</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">About Us</a></li>
+<li><a href="#" title="">Delivery information</a></li>
+<li><a href="#" title="">Privacy Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+<li><a href="#" title="">My Credit Slips</a></li>
+<li><a href="#" title="">My Addresses</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Customer service</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_customer">
+<h3>SUPPORT</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">Contact us</a></li>
+<li><a href="#" title="">Returns</a></li>
+<li><a href="#" title="">Site map</a></li>
+<li><a href="#" title="">Our Story</a></li>
+<li><a href="#" title="">Privacy & Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>About us</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 about_social">
+<div class="bd_footer_block bd_about">
+<h3>About us</h3>
+<div class="bd_content">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit., cidunt auctor ...</div>
+</div>
+<div class="bd_footer_block bd_social">
+<h3>Follow us</h3>
+<div class="bd_content"><a href="#" class="fa  fa-facebook">.</a> <a href="#" class="fa  fa-twitter">.</a> <a href="#" class="fa  fa-rss">.</a> <a href="#" class="fa  fa-google-plus">.</a><a href="#" class="fa  fa-linkedin">.</a><a href="#" class="fa  fa-pinterest">.</a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Store Info</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 bd_footer_block bd_store">
+<h3><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/logo.png" alt="" /></h3>
+<div class="bd_content">
+<h3>main office</h3>
+<ul>
+<li>
+<div class="fa fa-map-marker"></div>
+<span>PO Box 16122 Collins Street West Victoria 8007 Australia</span></li>
+<li>
+<div class="fa fa-phone"></div>
+<span>+844 123 456 78 / +844 123 456 79</span></li>
+<li>
+<div class="fa fa-envelope"></div>
+<span>sale@yoursitecom</span></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Address</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_address">
+<div class="bd_content">
+<p>Copyright © 2018 <a href="#">E-Shop</a>. All Right Reserved.</p>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Newletter</title>
+        <description></description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <iso_lang>es</iso_lang>
+        <title>Payment</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_payment">
+<div class="bd_content"><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/payment_footer.png" alt="" /></div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>My Account</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_my_account">
+<h3>My Account</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">My Account</a></li>
+<li><a href="#" title="">Order History</a></li>
+<li><a href="#" title="">Wish list</a></li>
+<li><a href="#" title="">Newsletter</a></li>
+<li><a href="#" title="">Shopping Cart</a></li>
+<li><a href="#" title="">Checkout</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Information</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_information">
+<h3>INFORMATION</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">About Us</a></li>
+<li><a href="#" title="">Delivery information</a></li>
+<li><a href="#" title="">Privacy Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+<li><a href="#" title="">My Credit Slips</a></li>
+<li><a href="#" title="">My Addresses</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Customer service</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_customer">
+<h3>SUPPORT</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">Contact us</a></li>
+<li><a href="#" title="">Returns</a></li>
+<li><a href="#" title="">Site map</a></li>
+<li><a href="#" title="">Our Story</a></li>
+<li><a href="#" title="">Privacy & Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>About us</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 about_social">
+<div class="bd_footer_block bd_about">
+<h3>About us</h3>
+<div class="bd_content">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit., cidunt auctor ...</div>
+</div>
+<div class="bd_footer_block bd_social">
+<h3>Follow us</h3>
+<div class="bd_content"><a href="#" class="fa  fa-facebook">.</a> <a href="#" class="fa  fa-twitter">.</a> <a href="#" class="fa  fa-rss">.</a> <a href="#" class="fa  fa-google-plus">.</a><a href="#" class="fa  fa-linkedin">.</a><a href="#" class="fa  fa-pinterest">.</a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Store Info</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 bd_footer_block bd_store">
+<h3><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/logo.png" alt="" /></h3>
+<div class="bd_content">
+<h3>main office</h3>
+<ul>
+<li>
+<div class="fa fa-map-marker"></div>
+<span>PO Box 16122 Collins Street West Victoria 8007 Australia</span></li>
+<li>
+<div class="fa fa-phone"></div>
+<span>+844 123 456 78 / +844 123 456 79</span></li>
+<li>
+<div class="fa fa-envelope"></div>
+<span>sale@yoursitecom</span></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Address</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_address">
+<div class="bd_content">
+<p>Copyright © 2018 <a href="#">E-Shop</a>. All Right Reserved.</p>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Newletter</title>
+        <description></description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <iso_lang>fr</iso_lang>
+        <title>Payment</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_payment">
+<div class="bd_content"><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/payment_footer.png" alt="" /></div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>My Account</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_my_account">
+<h3>My Account</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">My Account</a></li>
+<li><a href="#" title="">Order History</a></li>
+<li><a href="#" title="">Wish list</a></li>
+<li><a href="#" title="">Newsletter</a></li>
+<li><a href="#" title="">Shopping Cart</a></li>
+<li><a href="#" title="">Checkout</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Information</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_information">
+<h3>INFORMATION</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">About Us</a></li>
+<li><a href="#" title="">Delivery information</a></li>
+<li><a href="#" title="">Privacy Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+<li><a href="#" title="">My Credit Slips</a></li>
+<li><a href="#" title="">My Addresses</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Customer service</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-4 col-md-4 bd_footer_block bd_links bd_customer">
+<h3>SUPPORT</h3>
+<div class="bd_content">
+<ul>
+<li><a href="#" title="">Contact us</a></li>
+<li><a href="#" title="">Returns</a></li>
+<li><a href="#" title="">Site map</a></li>
+<li><a href="#" title="">Our Story</a></li>
+<li><a href="#" title="">Privacy & Policy</a></li>
+<li><a href="#" title="">Terms & Conditions</a></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>About us</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 about_social">
+<div class="bd_footer_block bd_about">
+<h3>About us</h3>
+<div class="bd_content">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit., cidunt auctor ...</div>
+</div>
+<div class="bd_footer_block bd_social">
+<h3>Follow us</h3>
+<div class="bd_content"><a href="#" class="fa  fa-facebook">.</a> <a href="#" class="fa  fa-twitter">.</a> <a href="#" class="fa  fa-rss">.</a> <a href="#" class="fa  fa-google-plus">.</a><a href="#" class="fa  fa-linkedin">.</a><a href="#" class="fa  fa-pinterest">.</a></div>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Store Info</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-6 col-md-6 bd_footer_block bd_store">
+<h3><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/logo.png" alt="" /></h3>
+<div class="bd_content">
+<h3>main office</h3>
+<ul>
+<li>
+<div class="fa fa-map-marker"></div>
+<span>PO Box 16122 Collins Street West Victoria 8007 Australia</span></li>
+<li>
+<div class="fa fa-phone"></div>
+<span>+844 123 456 78 / +844 123 456 79</span></li>
+<li>
+<div class="fa fa-envelope"></div>
+<span>sale@yoursitecom</span></li>
+</ul>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Address</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_address">
+<div class="bd_content">
+<p>Copyright © 2018 <a href="#">E-Shop</a>. All Right Reserved.</p>
+</div>
+</div>
+]]>
+    </description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Newletter</title>
+        <description></description>
+    </block_language>
+    <block_language>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <iso_lang>it</iso_lang>
+        <title>Payment</title>
+        <description>
+<![CDATA[
+<div class="col-xs-12 col-sm-12 col-md-6 bd_footer_block bd_payment">
+<div class="bd_content"><img class="img-responsive" src="/eshop/home1/modules/fieldstaticfooter/images/payment_footer.png" alt="" /></div>
+</div>
+]]>
+    </description>
+    </block_language>
+<!-- block shop configuration -->
+    <block_shop>
+        <id_fieldstaticblock>3</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>4</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>5</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>10</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>11</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>14</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>15</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop><block_shop>
+        <id_fieldstaticblock>16</id_fieldstaticblock>
+        <id_shop>1</id_shop>
+      </block_shop>
+
+</field_static_blocks>

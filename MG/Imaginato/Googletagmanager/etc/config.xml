@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Imaginato_Googletagmanager>
+            <version>0.0.1</version>
+        </Imaginato_Googletagmanager>
+    </modules>
+    <global>
+        <blocks>
+             <imaginato_googletagmanager>
+                <class>Imaginato_Googletagmanager_Block</class>
+            </imaginato_googletagmanager>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <googletagmanager>
+                    <file>imaginato/googletagmanager.xml</file>
+                </googletagmanager>
+            </updates>
+        </layout>
+    </frontend>
+</config>

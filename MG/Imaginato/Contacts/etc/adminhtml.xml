@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+
+<config>
+    <!-- Added menu in admin -->
+     <menu>
+        <cms>
+            <children>
+                <imaginato_contacts translate="title" module="imaginato_contacts">
+                    <title>Contacts</title>
+                    <sort_order>40</sort_order>
+                     <action>adminhtml/contacts</action>
+                </imaginato_contacts>              
+            </children>
+        </cms>
+        <customer>
+            <children>
+                <imaginato_customer_service translate="title" module="imaginato_contacts">
+                    <title>Customer Service</title>
+                    <sort_order>110</sort_order>
+                    <children>
+                        <enquery_type translate="title" module="imaginato_contacts">
+                            <title>Enquery Type</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/customer_service_enquerytype</action>
+                        </enquery_type>
+                        <enqueries translate="title" module="imaginato_contacts">
+                            <title>Enqueries</title>
+                            <sort_order>2</sort_order>
+                            <action>adminhtml/customer_service_enqueries</action>
+                        </enqueries>
+                    </children>
+                </imaginato_customer_service>
+            </children>
+        </customer>
+    </menu>
+    
+    <!-- Access permissions -->
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <imaginato_contacts>
+                                <title>Contacts</title>
+                            </imaginato_contacts>
+                        </children>
+                    </cms>
+                    <customer>
+                        <children>
+                            <imaginato_customer_service>
+                                <title>Customer Service</title>
+                                <children>
+                                    <enquery_type>
+                                        <title>Enquery Type</title>
+                                    </enquery_type>
+                                    <enqueries>
+                                        <title>Enqueries</title>
+                                    </enqueries>
+                                </children>
+                            </imaginato_customer_service>
+                        </children>
+                    </customer>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

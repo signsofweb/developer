@@ -1,0 +1,16 @@
+<logging>
+    <imaginato_shipment translate="label">
+        <label>AWB / Tracking Import</label>
+        <actions>
+            <adminhtml_imaginato_shipment_importPost>
+                <action>import</action>
+                <post_dispatch>imaginato_shipment__logging::postDispatchAwbImport</post_dispatch>
+            </adminhtml_imaginato_shipment_importPost>
+
+            <adminhtml_imaginato_shipment_exportPost>
+                <action>export</action>
+                <post_dispatch>imaginato_shipment__logging::postDispatchAwbExport</post_dispatch>
+            </adminhtml_imaginato_shipment_exportPost>
+        </actions>
+    </imaginato_shipment>
+</logging>

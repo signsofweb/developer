@@ -1,0 +1,23 @@
+<config>
+    <modules>
+        <Imaginato_Directory>
+            <version>0.0.1</version>
+        </Imaginato_Directory>
+    </modules>
+    <global>
+        <models>
+            <core>
+                <rewrite>
+                    <store>Imaginato_Directory_Model_Store</store>
+                </rewrite>
+            </core>
+        </models>
+        <country>
+            <defalut_currency>
+                <CN>CNY</CN>
+                <HK>HKD</HK>
+                <GB>GBP</GB>
+            </defalut_currency>
+        </country>
+    </global>
+</config>

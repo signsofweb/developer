@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Imaginato_Shipment>
+            <version>1.0.2</version>
+        </Imaginato_Shipment>
+    </modules>
+    <global>
+        <models>
+            <imaginato_shipment>
+                <class>Imaginato_Shipment_Model</class>
+            </imaginato_shipment>
+        </models>
+        <blocks>
+            <imaginato_shipment>
+                <class>Imaginato_Shipment_Block</class>
+            </imaginato_shipment>
+        </blocks>
+        <helpers>
+            <imaginato_shipment>
+                <class>Imaginato_Shipment_Helper</class>
+            </imaginato_shipment>
+        </helpers>
+        <sales>
+            <order>
+                <statuses>
+                    <imaginato_shipped translate="label">
+                        <label>Shipped</label>
+                    </imaginato_shipped>
+                    <imaginato_partial_shipped translate="label">
+                        <label>Partial Shipped</label>
+                    </imaginato_partial_shipped>
+                </statuses>
+            </order>
+        </sales>
+        <resources>
+            <imaginato_shipment_setup>
+                <setup>
+                    <module>Imaginato_Shipment</module>
+                    <class>Imaginato_Shipment_Model_Resource_Setup</class>
+                </setup>
+            </imaginato_shipment_setup>
+        </resources>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <imaginato_shipment after="Mage_Adminhtml">Imaginato_Shipment_Adminhtml</imaginato_shipment>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <imaginato_shipment>
+                    <file>imaginato/shipment.xml</file>
+                </imaginato_shipment>
+            </updates>
+        </layout>
+        <events>
+            <adminhtml_block_html_before>
+                <observers>
+                    <imaginato_shipment_export_option>
+                        <class>imaginato_shipment/observer</class>
+                        <method>includeOption</method>
+                    </imaginato_shipment_export_option>
+                </observers>
+            </adminhtml_block_html_before>
+        </events>
+    </adminhtml>
+</config>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Imaginato_Alipay>
+            <version>0.0.1</version>
+        </Imaginato_Alipay>
+    </modules>
+    <global>
+        <models>
+            <imaginato_alipay>
+                <class>Imaginato_Alipay_Model</class>
+            </imaginato_alipay>
+        </models>
+        <blocks>
+            <imaginato_alipay>
+                <class>Imaginato_Alipay_Block</class>
+            </imaginato_alipay>
+        </blocks>
+        <helpers>
+            <imaginato_alipay>
+                <class>Imaginato_Alipay_Helper</class>
+            </imaginato_alipay>
+        </helpers>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <alipay>
+                    <file>imaginato/alipay.xml</file>
+                </alipay>
+            </updates>
+        </layout>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <imaginato_alipay before="Mage_Adminhtml">Imaginato_Alipay_Adminhtml</imaginato_alipay>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <crontab>
+        <jobs>
+            <alipay_reconciliation>
+                <schedule>
+                    <cron_expr>0 1 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>imaginato_alipay/payment::reconciliation</model>
+                </run>
+            </alipay_reconciliation>
+        </jobs>
+    </crontab>
+</config>

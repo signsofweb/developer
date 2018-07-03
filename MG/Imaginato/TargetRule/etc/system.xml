@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <enterprise_targetrule>
+                    <fields>
+                        <max_product_list_result translate="label">
+                            <label>Maximum Number of Result Limit in Product Relations</label>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </max_product_list_result>
+                    </fields>
+                    <fields>
+                        <blacklist_categoryids translate="label">
+                            <label>Category Blacklist</label>
+                            <comment><![CDATA[Multiple Category is separated by "," ]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </blacklist_categoryids>
+                    </fields>
+                </enterprise_targetrule>
+            </groups>
+        </catalog>
+    </sections>
+</config>

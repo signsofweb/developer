@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+         <promo>
+            <children>
+                <imaginato_specialprice translate="title" module="imaginato_specialprice">
+                    <title>Batch Update Product Special Prices</title>
+                    <action>adminhtml/imaginato_specialprice/</action>
+                </imaginato_specialprice>
+            </children>
+         </promo>
+     </menu>
+     <acl>
+        <resources>
+            <admin>
+                <children>
+                    <promo>
+                        <children>
+                            <imaginato_specialprice translate="title">
+                                <title>Batch Update Product Special Prices</title>
+                            </imaginato_specialprice>
+                        </children>
+                    </promo>
+                </children>
+            </admin>
+        </resources>
+     </acl>
+</config>

@@ -1,0 +1,38 @@
+<config>
+	<menu>
+		<system>
+			<children>
+				<convert>
+					<children>
+						<ipi translate="title" module="importproductimage">
+							<title>Import Product Images</title>
+                            <action>adminhtml/ipi</action>
+                            <sort_order>100</sort_order>
+                        </ipi>
+                    </children>
+                </convert>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                        	<convert>
+                        		<children>
+                        			<ipi translate="title" module="importproductimage">
+										<title>Import Product Images</title>
+			                            <sort_order>100</sort_order>
+			                        </ipi>
+                        		</children>
+                        	</convert>
+                            
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
